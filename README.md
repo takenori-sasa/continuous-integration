@@ -94,8 +94,9 @@ First, let's add a workflow to lint our Markdown files in this repository.
   Define terms and link to docs.github.com.
 -->
 
-<details id=2>
-<summary><h2>Step 2: Fix the test</h2></summary>
+
+<details id=2 open>
+<summary><h2>Step 2: Fix the test 👋</h2></summary>
 
 _Great job adding the templated workflow! :tada:_
 
@@ -111,7 +112,7 @@ When the tests finish, you'll see a red X :x: or a green check mark :heavy_check
 
 <!-- Note here: Learners -- yup, you found the error! Course maintainers -- leave the italics with * instead of _ for the error case. -->
 
-*By looking at the logs, can you identify which tests failed?* To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
+_By looking at the logs, can you identify which tests failed?_ To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
 
 <img alt="screenshot of a sample build log with the names of the tests blurred out" src=https://user-images.githubusercontent.com/16547949/65922013-e740a200-e3b1-11e9-8151-faf52c30201e.png width=400 />
 
